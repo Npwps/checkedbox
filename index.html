@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Profile</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <div class="profile">
+        <div class="imgBx">
+          <img src="foto/WhatsApp Image 2024-05-05 at 12.50.47.jpeg">
+        </div>
+        <h4 class="text">Ida Bagus Willi Parmita<br>
+          <span>College Student</span></h4>
+      </div>
+      <ul class="menu">
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="wifi"></ion-icon> Wi-Fi
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="bluetooth"></ion-icon> Bluetooth
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="airplane"></ion-icon> Airplane Mode
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="location"></ion-icon> Location
+            </span>
+            <span class="action">
+              <input type="checkbox">
+              <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+          <label>
+            <span class="title">
+              <ion-icon name="moon"></ion-icon> Dark Mode
+            </span>
+            <span class="action">
+              <input type="checkbox" id="dark">
+              <i></i>
+            </span>
+          </label>
+        </li>
+        <li>
+        <label>
+          <span class="title">
+            <ion-icon name="logo-nodejs"></ion-icon> Pink Mode
+          </span>
+          <span class="action">
+            <input id="pink" type="checkbox">
+            <i></i>
+          </span>
+        </label>
+        <div class="text" id="clock" onload="showTime()"></div>
+        </li>
+      </ul>
+  </div>
+
+  <div class="welcome-popup">
+    <div class="content">
+        <h2>Selamat-Datang</h2>
+        <p>Di Profile Saya</p>
+      <button>Close</button>
+    </div>
+  </div>
+
+  <script src="scripts.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+</body>
+
+</html>
